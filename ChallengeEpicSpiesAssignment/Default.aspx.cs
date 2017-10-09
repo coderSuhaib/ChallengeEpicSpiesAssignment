@@ -17,6 +17,7 @@ namespace ChallengeEpicSpiesAssignment
                 startCalendar.SelectedDate = DateTime.Now.Date.AddDays(14);
                 projectedCalendar.SelectedDate = DateTime.Now.Date.AddDays(21);
             }
+            Page.MaintainScrollPositionOnPostBack = true;
 
         }
 
